@@ -28,6 +28,7 @@ return "hello";
 
     @GetMapping("/admin")
     public String adminPage(){
+        System.out.println("Commit number 2");
     return "admin";
 
     }
