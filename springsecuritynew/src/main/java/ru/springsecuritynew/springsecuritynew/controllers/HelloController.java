@@ -29,6 +29,7 @@ return "hello";
     @GetMapping("/admin")
     public String adminPage(){
         System.out.println("Commit number 2");
+        System.out.println("Testing merge conflict");
     return "admin";
 
     }
