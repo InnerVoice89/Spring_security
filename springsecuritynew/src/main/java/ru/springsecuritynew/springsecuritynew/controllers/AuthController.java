@@ -31,6 +31,7 @@ public class AuthController {
     @GetMapping("/login")
     public String AuthController() {
         System.out.println("Commit number 1");
+        System.out.println("it is local repository");
         return "auth/login";
     }
 
